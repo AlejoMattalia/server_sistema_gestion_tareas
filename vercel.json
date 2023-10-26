@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "config.ru",
+      "use": "@vercel/ruby",
+      "config": {
+        "installCommand": "bundle install --gemfile=/vercel/path1/Gemfile --path=/vercel/path1/custom_bundle"}
+    }
+  ],
+  "routes": [
+    {
+      "src": "/assets/(.*)",
+      "dest": "/public/assets/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "config.ru"
+    }
+  ],
+  "env": {
+    "RUBY_VERSION": "2.7.4"
+  }
+}

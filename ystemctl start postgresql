@@ -1,0 +1,10 @@
+○ postgresql.service - PostgreSQL RDBMS
+     Loaded: loaded (/lib/systemd/system/postgresql.service; enabled; vendor preset: enabled)
+     Active: inactive (dead) since Thu 2023-10-19 11:56:33 -03; 1h 19min ago
+   Main PID: 1148 (code=exited, status=0/SUCCESS)
+        CPU: 3ms
+
+oct 19 08:22:19 alejomattalia-300E5EV-300E4EV-270E5EV-270E4EV-2470EV-2470EE systemd[1]: Starting PostgreSQL RDBMS...
+oct 19 08:22:19 alejomattalia-300E5EV-300E4EV-270E5EV-270E4EV-2470EV-2470EE systemd[1]: Finished PostgreSQL RDBMS.
+oct 19 11:56:33 alejomattalia-300E5EV-300E4EV-270E5EV-270E4EV-2470EV-2470EE systemd[1]: postgresql.service: Deactivated successfully.
+oct 19 11:56:33 alejomattalia-300E5EV-300E4EV-270E5EV-270E4EV-2470EV-2470EE systemd[1]: Stopped PostgreSQL RDBMS.
